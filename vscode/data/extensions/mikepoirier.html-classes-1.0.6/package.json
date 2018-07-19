@@ -1,0 +1,39 @@
+{
+	"name": "HTML-Classes",
+	"displayName": "HTML Class Attribute Snippets",
+	"description": "Easily add class attributes while creating HTML tags.",
+	"version": "1.0.6",
+	"publisher": "mikepoirier",
+	"icon": "images/MP_Logo.png",
+	"galleryBanner": {
+		"color": "#112233",
+		"theme": "dark"
+	},
+	"galleryFlags": [
+		"Public"
+	],
+	"homepage": "https://github.com/mikejpoirier/HTML-Class-Snippets/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mikejpoirier/HTML-Class-Snippets.git"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "c9fb9423-6ba4-44a5-a561-15187fcd4941",
+		"publisherId": "3319d944-4781-4d3a-8f7b-91459b47c1b0",
+		"publisherDisplayName": "Mike Poirier"
+	}
+}

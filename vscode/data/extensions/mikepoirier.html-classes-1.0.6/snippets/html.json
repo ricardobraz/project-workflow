@@ -1,0 +1,393 @@
+{
+/*
+	// HTML Class Snippets
+	// Create HTML tags with class attributes quickly!
+	// 
+	// Author: Mike Poirier
+*/
+	"a with class": {
+		"prefix": "a.class",
+		"body": [
+			"<a href=\"$1\" class=\"$2\">$3</a>$0"
+		],
+		"description": "Create an anchor with class attribute(s)"
+	},
+
+	"b with class": {
+		"prefix": "b.class",
+		"body": [
+			"<b class=\"$1\">$2</b>$0"
+		],
+		"description": "Create bold text with class attribute(s)"
+	},
+
+	"body with class": {
+		"prefix": "body.class",
+		"body": [
+			"<body class=\"$1\">",
+			"\t$0",
+			"</body>"
+		],
+		"description": "Create a body with class attribute(s)"
+	},
+
+	"button with class": {
+		"prefix": "button.class",
+		"body": [
+			"<button type=\"$1\" class=\"$2\">$3</button>$0"
+		],
+		"description": "Create a button with class attribute(s)"
+	},
+
+	"div with class": {
+		"prefix": "div.class",
+		"body": [
+			"<div class=\"$1\">",
+			"\t$0",
+			"</div>"
+		],
+		"description": "Create a section with class attribute(s)"
+	},
+
+	"dl with class": {
+		"prefix": "dl.class",
+		"body": [
+			"<dl class=\"$1\">$2</dl>$0"
+		],
+		"description": "Create a description list with class attribute(s)"
+	},
+
+	"dt with class": {
+		"prefix": "dt.class",
+		"body": [
+			"<dt class=\"$1\">$2</dt>$0"
+		],
+		"description": "Create a term in a description list with class attribute(s)"
+	},
+
+	"em with class": {
+		"prefix": "em.class",
+		"body": [
+			"<em class=\"$1\">$2</em>$0"
+		],
+		"description": "Create emphasized text with class attribute(s)"
+	},
+
+	"fa with class": {
+		"prefix": "fa.class",
+		"body":[
+			"<i class=\"fa fa-$1\" aria-hidden=\"true\"></i>$0"
+		],
+		"description": "Create a tag for font-awesome icon usage with class attribute(s)"
+	},
+
+	"footer with class": {
+		"prefix": "footer.class",
+		"body": [
+			"<footer class=\"$1\">",
+			"\t$0",
+			"</footer>"
+		],
+		"description": "Create a footer with class attribute(s)"
+	},
+
+	"form with class": {
+		"prefix": "form.class",
+		"body": [
+			"<form class=\"$1\">",
+			"\t$0",
+			"</form>"
+		],
+		"description": "Create an input form with class attribute(s)"
+	},
+
+	"h1 with class": {
+		"prefix": "h1.class",
+		"body": [
+			"<h1 class=\"$1\">$2</h1>$0"
+		],
+		"description": "Create a heading (h1) with class attribute(s)"
+	},
+
+	"h2 with class": {
+		"prefix": "h2.class",
+		"body": [
+			"<h2 class=\"$1\">$2</h2>$0"
+		],
+		"description": "Create a heading (h2) with class attribute(s)"
+	},
+
+	"h3 with class": {
+		"prefix": "h3.class",
+		"body": [
+			"<h3 class=\"$1\">$2</h3>$0"
+		],
+		"description": "Create a heading (h3) with class attribute(s)"
+	},
+
+	"h4 with class": {
+		"prefix": "h4.class",
+		"body": [
+			"<h4 class=\"$1\">$2</h4>$0"
+		],
+		"description": "Create a heading (h4) with class attribute(s)"
+	},
+
+	"h5 with class": {
+		"prefix": "h5.class",
+		"body": [
+			"<h5 class=\"$1\">$2</h5>$0"
+		],
+		"description": "Create a heading (h5) with class attribute(s)"
+	},
+
+	"h6 with class": {
+		"prefix": "h6.class",
+		"body": [
+			"<h6 class=\"$1\">$2</h6>$0"
+		],
+		"description": "Create a heading (h6) with class attribute(s)"
+	},
+
+	"header with class": {
+		"prefix": "header.class",
+		"body": [
+			"<header class=\"$1\">",
+			"\t$0",
+			"</header>"
+		],
+		"description": "Create a header with class attribute(s)"
+	},
+
+	"html with class": {
+		"prefix": "html.class",
+		"body": [
+			"<html class=\"$1\">",
+			"\t$0",
+			"</html>"
+		],
+		"description": "Create an html with class attribute(s)"
+	},
+
+	"idiv with class": {
+		"prefix": "idiv.class",
+		"body": [
+			"<div class=\"$1\">$2</div>$0"
+		],
+		"description": "Create an inline section with class attribute(s)"
+	},
+
+	"img with class": {
+		"prefix": "img.class",
+		"body": [
+			"<img src=\"$1\" alt=\"$2\" class=\"$3\">$0"
+		],
+		"description": "Create an image with class attribute(s)"
+	},
+
+	"input with class": {
+		"prefix": "input.class",
+		"body": [
+			"<input type=\"$1\" name=\"$2\" value=\"$3\" class=\"$4\">$0"
+		],
+		"description": "Create an input with class attribute(s)"
+	},
+
+	"label with class": {
+		"prefix": "label.class",
+		"body": [
+			"<label for=\"$1\" class=\"$2\">$3</label>$0"
+		],
+		"description": "Create a label for an input with class attribute(s)"
+	},
+
+	"li with class": {
+		"prefix": "li.class",
+		"body": [
+			"<li class=\"$1\">$2</li>$0"
+		],
+		"description": "Create a list item with class attribute(s)"
+	},
+
+	"nav with class": {
+		"prefix": "nav.class",
+		"body": [
+			"<nav class=\"$1\">$2</nav>$0"
+		],
+		"description": "Create a nav with class attribute(s)"
+	},
+
+	"ol with class": {
+		"prefix": "ol.class",
+		"body": [
+			"<ol class=\"$1\">",
+			"\t$0",
+			"</ol>"
+		],
+		"description": "Create an ordered list with class attribute(s)"
+	},
+
+	"p with class": {
+		"prefix": "p.class",
+		"body": [
+			"<p class=\"$1\">$2</p>$0"
+		],
+		"description": "Create a paragraph with class attribute(s)"
+	},
+
+	"q with class": {
+		"prefix": "q.class",
+		"body": [
+			"<q class=\"$1\">$2</q>$0"
+		],
+		"description": "Create a quotation with class attribute(s)"
+	},
+
+	"select with class": {
+		"prefix": "select.class",
+		"body": [
+			"<select class=\"$1\">",
+			"\t$0",
+			"</select>"
+		],
+		"description": "Create a drop-down list with class attribute(s)"
+	},
+
+	"small with class": {
+		"prefix": "small.class",
+		"body": [
+			"<small class=\"$1\">$2</small>$0"
+		],
+		"description": "Create smaller text with class attribute(s)"
+	},
+
+	"span with class": {
+		"prefix": "span.class",
+		"body": [
+			"<span class=\"$1\">$2</span>$0"
+		],
+		"description": "Create a span with class attribute(s)"
+	},
+
+	"strong with class": {
+		"prefix": "strong.class",
+		"body": [
+			"<strong class=\"$1\">$2</strong>$0"
+		],
+		"description": "Create strong text with class attribute(s)"
+	},
+
+	"sub with class": {
+		"prefix": "sub.class",
+		"body": [
+			"<sub class=\"$1\">$2</sub>$0"
+		],
+		"description": "Create subscripted text with class attribute(s)"
+	},
+
+	"sup with class": {
+		"prefix": "sup.class",
+		"body": [
+			"<sup class=\"$1\">$2</sup>$0"
+		],
+		"description": "Create superscripted text with class attribute(s)"
+	},
+
+	"table with class": {
+		"prefix": "table.class",
+		"body": [
+			"<table class=\"$1\">",
+			"\t$0",
+			"</table>"
+		],
+		"description": "Create a table with class attribute(s)"
+	},
+
+	"tbody with class": {
+		"prefix": "tbody.class",
+		"body": [
+			"<tbody class=\"$1\">",
+			"\t$0",
+			"</tbody>"
+		],
+		"description": "Create a table body with class attribute(s)"
+	},
+
+	"td with class": {
+		"prefix": "td.class",
+		"body": [
+			"<td class=\"$1\">$2</td>$0"
+		],
+		"description": "Create a table cell with class attribute(s)"
+	},
+
+	"textarea with class": {
+		"prefix": "textarea.class",
+		"body": [
+			"<textarea rows=\"$1\" cols=\"$2\" class=\"$3\">$4</textarea>$0"
+		],
+		"description": "Create a multiple line input with class attribute(s)"
+	},
+
+	"tfoot with class": {
+		"prefix": "tfoot.class",
+		"body": [
+			"<tfoot class=\"$1\">",
+			"\t$0",
+			"</tfoot>"
+		],
+		"description": "Create a table footer with class attribute(s)"
+	},
+
+	"th with class": {
+		"prefix": "th.class",
+		"body": [
+			"<th class=\"$1\">$2</th>$0"
+		],
+		"description": "Create a table header cell with class attribute(s)"
+	},
+
+	"thead with class": {
+		"prefix": "thead.class",
+		"body": [
+			"<thead class=\"$1\">",
+			"\t$0",
+			"</thead>"
+		],
+		"description": "Create a table header with class attribute(s)"
+	},
+
+	"title with class": {
+		"prefix": "title.class",
+		"body": [
+			"<title class=\"$1\">$2</title>$0"
+		],
+		"description": "Create a title with class attribute(s)"
+	},
+
+	"tr with class": {
+		"prefix": "tr.class",
+		"body": [
+			"<tr class=\"$1\">$2</tr>$0"
+		],
+		"description": "Create a table row with class attribute(s)"
+	},
+
+	"u with class": {
+		"prefix": "u.class",
+		"body": [
+			"<u class=\"$1\">$2</u>$0"
+		],
+		"description": "Create underlined text with class attribute(s)"
+	},
+
+	"ul with class": {
+		"prefix": "ul.class",
+		"body": [
+			"<ul class=\"$1\">",
+			"\t$0",
+			"</ul>"
+		],
+		"description": "Create an unordered list with class attribute(s)"
+	}
+}

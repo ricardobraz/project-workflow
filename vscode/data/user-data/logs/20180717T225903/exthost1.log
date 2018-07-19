@@ -1,0 +1,26 @@
+[2018-07-17 22:59:05.323] [exthost1] [info] extension host started
+[2018-07-17 22:59:05.345] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-07-17 22:59:05.346] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Program Files\Microsoft VS Code\resources\app\extensions\emmet\out\extension
+[2018-07-17 22:59:05.421] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-07-17 22:59:05.421] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Program Files\Microsoft VS Code\resources\app\extensions\git\out\main
+[2018-07-17 22:59:05.643] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-07-17 22:59:05.643] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Program Files\Microsoft VS Code\resources\app\extensions\merge-conflict\out\extension
+[2018-07-17 22:59:05.660] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-07-17 22:59:05.660] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Program Files\Microsoft VS Code\resources\app\extensions\search-rg\out\extension
+[2018-07-17 22:59:05.672] [exthost1] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"activationEvent":"*"}
+[2018-07-17 22:59:05.672] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Ricardo\.vscode\extensions\EditorConfig.editorconfig-0.12.4\out\src\editorConfigMain
+[2018-07-17 22:59:05.710] [exthost1] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2018-07-17 22:59:05.710] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Ricardo\.vscode\extensions\HookyQR.beautify-1.3.2\extension
+[2018-07-17 22:59:05.773] [exthost1] [info] ExtensionService#_doActivateExtension brandonsoto.pomodoro-timer {"startup":true,"activationEvent":"*"}
+[2018-07-17 22:59:05.773] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Ricardo\.vscode\extensions\brandonsoto.pomodoro-timer-1.0.8\src\extension
+[2018-07-17 22:59:05.778] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2018-07-17 22:59:05.778] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Ricardo\.vscode\extensions\formulahendry.auto-rename-tag-0.0.15\out\src\extension
+[2018-07-17 22:59:05.783] [exthost1] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2018-07-17 22:59:05.783] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Ricardo\.vscode\extensions\pkief.material-icon-theme-3.5.1\out\src\extension
+[2018-07-17 22:59:05.854] [exthost1] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"activationEvent":"*"}
+[2018-07-17 22:59:05.854] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Ricardo\.vscode\extensions\shan.code-settings-sync-3.0.0\out\src\extension
+[2018-07-17 22:59:06.223] [exthost1] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-07-17 22:59:06.223] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Program Files\Microsoft VS Code\resources\app\extensions\php-language-features\out\phpMain
+[2018-07-17 22:59:06.250] [exthost1] [info] ExtensionService#_doActivateExtension felixfbecker.php-intellisense {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-07-17 22:59:06.250] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Ricardo\.vscode\extensions\felixfbecker.php-intellisense-2.3.3\out\extension
+[2018-07-17 22:59:07.268] [exthost1] [info] eager extensions activated

@@ -1,0 +1,2 @@
+## Ignore .vsix files generated from VSCode package creation
+*.vsix

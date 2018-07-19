@@ -1,0 +1,99 @@
+{
+	"name": "pomodoro-timer",
+	"displayName": "Pomodoro Timer",
+	"description": "Pomodoro Technique support",
+	"version": "1.0.8",
+	"publisher": "brandonsoto",
+	"homepage": "https://github.com/brandonsoto/pomodoro-timer/blob/master/README.md",
+	"badges": [
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/version/brandonsoto.pomodoro-timer.svg",
+			"href": "https://vsmarketplacebadge.apphb.com/version/brandonsoto.popomodoro-timer.svg",
+			"description": "version"
+		},
+		{
+			"url": "https://travis-ci.org/brandonsoto/pomodoro-timer.svg?branch=master",
+			"href": "https://travis-ci.org/brandonsoto/pomodoro-timer",
+			"description": "build status"
+		},
+		{
+			"url": "https://api.codeclimate.com/v1/badges/ba73e4050c4a2636c527/maintainability",
+			"href": "https://api.codeclimate.com/v1/badges/ba73e4050c4a2636c527/maintainability",
+			"description": "maintainability status"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/brandonsoto/pomodoro-timer"
+	},
+	"bugs": {
+		"url": "https://github.com/brandonsoto/pomodoro-timer/issues"
+	},
+	"keywords": [
+		"pomodoro",
+		"timer",
+		"productivity"
+	],
+	"engines": {
+		"vscode": "^1.19.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#333333",
+		"theme": "dark"
+	},
+	"main": "./src/extension",
+	"license": "MIT",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Pomodoro",
+			"properties": {
+				"pomodoro.interval": {
+					"type": "int",
+					"default": 25,
+					"description": "The number of minutes in a Pomodoro"
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "extension.startTimer",
+				"title": "Start Timer",
+				"category": "Pomodoro"
+			},
+			{
+				"command": "extension.pauseTimer",
+				"title": "Pause Timer",
+				"category": "Pomodoro"
+			},
+			{
+				"command": "extension.resetTimer",
+				"title": "Reset Timer",
+				"category": "Pomodoro"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.6",
+		"eslint": "^4.6.1",
+		"@types/node": "^7.0.43",
+		"@types/mocha": "^2.2.42"
+	},
+	"__metadata": {
+		"id": "16733959-093f-4969-ae25-928d3a3d05d5",
+		"publisherId": "51ed376d-81c7-4c22-a19b-fa53c7bff7ed",
+		"publisherDisplayName": "brandonsoto"
+	}
+}

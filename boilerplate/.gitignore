@@ -1,0 +1,71 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Useful .gitignore templates: https://github.com/github/gitignore
+
+
+## Sistemas Operacionais
+$RECYCLE.BIN/
+Desktop.ini
+Thumbs.db
+*.lnk
+*~
+.DS_Store
+._*
+
+## Git
+*.orig
+
+## Node
+logs
+*.log
+
+## NPM
+npm-debug.log*
+.npm
+
+## Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+## Prepros
+Prepros Export/
+prepros-6.config
+
+## VisualStudioCode
+.vscode/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history
+
+## WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/mu-plugins/
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+.htaccess
+license.txt
+readme.html
+sitemap.xml
+sitemap.xml.gz
+
+.editorconfig
+.gitattributes
+
+*.txt
+*.log
+*.map
+*.css.map

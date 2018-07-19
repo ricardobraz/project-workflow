@@ -1,0 +1,49 @@
+[2018-07-17 20:33:58.271] [sharedprocess] [info] main {"machineId":"290292ebd6a773601b8d24960216fd21a68444e6a3acbf25884178bec282b9fc"}
+[2018-07-17 20:33:59.923] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:34:01.000] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-17 20:34:05.473] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:34:05.474] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:34:05.816] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-17 20:34:09.151] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:34:10.906] [sharedprocess] [info] Installing extension: githistory
+[2018-07-17 20:34:10.906] [sharedprocess] [info] Installing extension: debugger-for-chrome
+[2018-07-17 20:34:10.906] [sharedprocess] [info] Installing extension: code-settings-sync
+[2018-07-17 20:34:12.450] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:34:12.452] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:34:12.454] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:34:17.169] [sharedprocess] [info] Downloaded extension: code-settings-sync
+[2018-07-17 20:34:17.320] [sharedprocess] [info] Downloaded extension: debugger-for-chrome
+[2018-07-17 20:34:19.857] [sharedprocess] [info] Extracted extension to C:\Users\Ricardo\.vscode\extensions\.msjsdiag.debugger-for-chrome-4.8.0: msjsdiag.debugger-for-chrome-4.8.0
+[2018-07-17 20:34:19.858] [sharedprocess] [info] Renamed to C:\Users\Ricardo\.vscode\extensions\msjsdiag.debugger-for-chrome-4.8.0
+[2018-07-17 20:34:19.858] [sharedprocess] [info] Installation completed. msjsdiag.debugger-for-chrome-4.8.0
+[2018-07-17 20:34:20.440] [sharedprocess] [info] Extensions installed successfully: msjsdiag.debugger-for-chrome
+[2018-07-17 20:34:20.586] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:34:20.609] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-17 20:34:22.790] [sharedprocess] [info] Downloaded extension: githistory
+[2018-07-17 20:34:24.833] [sharedprocess] [info] Extracted extension to C:\Users\Ricardo\.vscode\extensions\.shan.code-settings-sync-3.0.0: shan.code-settings-sync-3.0.0
+[2018-07-17 20:34:25.880] [sharedprocess] [info] Renamed to C:\Users\Ricardo\.vscode\extensions\shan.code-settings-sync-3.0.0
+[2018-07-17 20:34:25.880] [sharedprocess] [info] Installation completed. shan.code-settings-sync-3.0.0
+[2018-07-17 20:34:26.366] [sharedprocess] [info] Extensions installed successfully: shan.code-settings-sync
+[2018-07-17 20:34:26.519] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:34:26.533] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-17 20:34:38.352] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-07-17 20:35:05.475] [sharedprocess] [info] Extracted extension to C:\Users\Ricardo\.vscode\extensions\.donjayamanne.githistory-0.4.2: donjayamanne.githistory-0.4.2
+[2018-07-17 20:35:05.478] [sharedprocess] [info] Renamed to C:\Users\Ricardo\.vscode\extensions\donjayamanne.githistory-0.4.2
+[2018-07-17 20:35:05.478] [sharedprocess] [info] Installation completed. donjayamanne.githistory-0.4.2
+[2018-07-17 20:35:06.158] [sharedprocess] [info] Extensions installed successfully: donjayamanne.githistory
+[2018-07-17 20:35:06.310] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:35:06.322] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-17 20:39:09.185] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:44:09.211] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:49:09.242] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:50:48.989] [sharedprocess] [info] main {"machineId":"290292ebd6a773601b8d24960216fd21a68444e6a3acbf25884178bec282b9fc"}
+[2018-07-17 20:50:49.104] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:50:49.179] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:50:49.180] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:50:49.229] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-17 20:51:09.789] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-17 20:51:10.503] [sharedprocess] [info] Scanned user extensions: 21
+[2018-07-17 20:51:10.504] [sharedprocess] [info] Deleted from disk msjsdiag.debugger-for-chrome-4.7.0
+[2018-07-17 20:51:10.661] [sharedprocess] [info] Deleted from disk shan.code-settings-sync-2.9.2
+[2018-07-17 20:51:10.737] [sharedprocess] [info] Deleted from disk donjayamanne.githistory-0.4.1
+[2018-07-17 20:51:29.007] [sharedprocess] [info] Starting to clean up unused language packs.

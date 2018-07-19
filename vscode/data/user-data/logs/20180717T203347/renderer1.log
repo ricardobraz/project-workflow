@@ -1,0 +1,17 @@
+[2018-07-17 20:34:04.450] [renderer1] [info] no standard startup: panel is active
+[2018-07-17 20:34:06.492] [renderer1] [info] No grammar found for scope source.smarty
+[2018-07-17 20:34:06.809] [renderer1] [info] No grammar found for scope text.html.javadoc
+[2018-07-17 20:50:49.007] [renderer1] [info] no standard startup: panel is active
+[2018-07-17 20:50:50.012] [renderer1] [info] No grammar found for scope source.smarty
+[2018-07-17 20:50:50.018] [renderer1] [info] No grammar found for scope text.html.javadoc
+[2018-07-17 20:50:52.620] [renderer1] [info] No grammar found for scope source.applescript
+[2018-07-17 20:50:52.704] [renderer1] [info] No grammar found for scope text.html.textile
+[2018-07-17 20:50:52.704] [renderer1] [info] No grammar found for scope source.c++
+[2018-07-17 20:50:52.710] [renderer1] [info] No grammar found for scope source.js.jquery
+[2018-07-17 20:50:52.725] [renderer1] [info] No grammar found for scope source.dosbatch
+[2018-07-17 20:50:52.759] [renderer1] [info] No grammar found for scope source.scala
+[2018-07-17 20:50:52.776] [renderer1] [info] No grammar found for scope source.dart
+[2018-07-17 20:50:52.776] [renderer1] [info] No grammar found for scope source.postscript
+[2018-07-17 20:50:52.776] [renderer1] [info] No grammar found for scope text.html.javadoc
+[2018-07-17 20:50:52.982] [renderer1] [info] No grammar found for scope source.less
+[2018-07-17 20:50:52.982] [renderer1] [info] No grammar found for scope source.stylus

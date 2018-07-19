@@ -1,0 +1,200 @@
+{
+	"name": "alignment",
+	"displayName": "Alignment",
+	"description": "Align code like in Sublime Text 3 Alignment Package",
+	"version": "0.3.0",
+	"publisher": "annsk",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Formatters",
+		"Languages",
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:alignment.align",
+		"onCommand:alignment.alignWhitespace",
+		"onCommand:alignment.alignFirst"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "alignment.align",
+				"title": "Align all chars"
+			},
+			{
+				"command": "alignment.alignFirst",
+				"title": "Align to first char"
+			},
+			{
+				"command": "alignment.alignWhitespace",
+				"title": "Align whitespace"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Alignment configuration",
+			"properties": {
+				"alignment.chars": {
+					"type": "object",
+					"default": {
+						":": {
+							"spaceBefore": 0,
+							"spaceAfter": 1
+						},
+						"::": {
+							"spaceBefore": 0,
+							"spaceAfter": 0
+						},
+						"=": {
+							"spaceBefore": 1,
+							"spaceAfter": 1
+						},
+						"===": {
+							"spaceBefore": 1,
+							"spaceAfter": 1
+						},
+						"==": {
+							"spaceBefore": 1,
+							"spaceAfter": 1
+						},
+						"=>": {
+							"spaceBefore": 1,
+							"spaceAfter": 1
+						},
+						"+=": {
+							"spaceBefore": 1,
+							"spaceAfter": 1
+						},
+						"-=": {
+							"spaceBefore": 1,
+							"spaceAfter": 1
+						},
+						"*=": {
+							"spaceBefore": 1,
+							"spaceAfter": 1
+						},
+						"/=": {
+							"spaceBefore": 1,
+							"spaceAfter": 1
+						}
+					},
+					"description": "Chars to align",
+					"additionalProperties": {
+						"type": "object",
+						"properties": {
+							"spaceBefore": {
+								"type": "number",
+								"default": 0
+							},
+							"spaceAfter": {
+								"type": "number",
+								"default": 1
+							},
+							"tabsBefore": {
+								"type": "number",
+								"default": 1
+							},
+							"tabsAfter": {
+								"type": "number",
+								"default": 1
+							}
+						},
+						"additionalProperties": false
+					}
+				}
+			}
+		},
+		"keybindings": [
+			{
+				"command": "alignment.align",
+				"key": "alt+=",
+				"when": "editorHasSelection"
+			},
+			{
+				"command": "alignment.alignFirst",
+				"key": "alt+shift+=",
+				"when": "editorHasSelection"
+			},
+			{
+				"command": "alignment.alignWhitespace",
+				"key": "alt+-",
+				"when": "editorHasSelection"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorHasSelection",
+					"command": "alignment.align",
+					"group": "1_modification"
+				},
+				{
+					"when": "editorHasSelection",
+					"command": "alignment.alignFirst",
+					"group": "1_modification"
+				},
+				{
+					"when": "editorHasSelection",
+					"command": "alignment.alignWhitespace",
+					"group": "1_modification"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"typescript": "^2.0.3",
+		"vscode": "^1.0.3",
+		"mocha": "^2.3.3",
+		"@types/node": "^6.0.40",
+		"@types/mocha": "^2.2.32"
+	},
+	"license": "https://github.com/annsk/vscode-alignment/blob/master/LICENSE.md",
+	"bugs": {
+		"url": "https://github.com/annsk/vscode-alignment/issues"
+	},
+	"homepage": "https://github.com/annsk/vscode-alignment/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/annsk/vscode-alignment.git"
+	},
+	"icon": "docs/icon.png",
+	"galleryBanner": {
+		"color": "#0071bc",
+		"theme": "dark"
+	},
+	"badges": [
+		{
+			"url": "http://vsmarketplacebadge.apphb.com/version/annsk.alignment.svg",
+			"href": "https://marketplace.visualstudio.com/items?itemName=annsk.alignment",
+			"description": "Extension version"
+		},
+		{
+			"url": "http://vsmarketplacebadge.apphb.com/installs/annsk.alignment.svg",
+			"href": "https://marketplace.visualstudio.com/items?itemName=annsk.alignment",
+			"description": "Extension installs"
+		},
+		{
+			"url": "http://vsmarketplacebadge.apphb.com/rating-short/annsk.alignment.svg",
+			"href": "https://marketplace.visualstudio.com/items?itemName=annsk.alignment#review-details",
+			"description": "Extension Rating"
+		}
+	],
+	"keywords": [
+		"align",
+		"alignment",
+		"format"
+	],
+	"__metadata": {
+		"id": "d7fc53c7-9da8-42c1-8df6-25b0f80fe379",
+		"publisherId": "f01dd274-69d6-4b78-b05f-aa37cc791e60",
+		"publisherDisplayName": "annsk"
+	}
+}
