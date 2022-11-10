@@ -127,7 +127,7 @@
 		"tslint": "^5.8.0",
 		"tslint-config-prettier": "^1.6.0",
 		"typescript": "^2.5.3",
-		"vscode": "0.10.x"
+		"vscode": "1.1.x"
 	},
 	"dependencies": {
 		"faker": "~4.1.0"
